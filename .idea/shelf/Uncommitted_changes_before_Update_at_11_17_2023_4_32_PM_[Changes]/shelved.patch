@@ -1,0 +1,191 @@
+Index: src/swingBasics.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class swingBasics {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/swingBasics.java b/src/swingBasics.java
+deleted file mode 100644
+--- a/src/swingBasics.java	(revision 690b511bd04decdd7ef064783aa613d266b11ade)
++++ /dev/null	(revision 690b511bd04decdd7ef064783aa613d266b11ade)
+@@ -1,2 +0,0 @@
+-public class swingBasics {
+-}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"eef6b517-3622-4db8-8a1b-f64419da324f\" name=\"Changes\" comment=\"creating first swing class\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/swingBasics.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/SwingBasics.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2YDaMIJIQ69EOdilWim516Xsd9W\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/iNB.BRIANNRT/Desktop/1Folder Projects/1Folder Java/MARINGO SPORTS CLUB C\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"eef6b517-3622-4db8-8a1b-f64419da324f\" name=\"Changes\" comment=\"\" />\r\n      <created>1700062559288</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1700062559288</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"creating first swing class\">\r\n      <created>1700062712181</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700062712182</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"creating first swing class\">\r\n      <created>1700063030693</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700063030693</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"creating first swing class\">\r\n      <created>1700063609659</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700063609659</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"creating first swing class\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"creating first swing class\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/JFrameWithBackground.java</url>\r\n          <line>25</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 690b511bd04decdd7ef064783aa613d266b11ade)
++++ b/.idea/workspace.xml	(date 1700227611332)
+@@ -2,9 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="eef6b517-3622-4db8-8a1b-f64419da324f" name="Changes" comment="creating first swing class">
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/swingBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingBasics.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/SwingBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwingBasics.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -30,14 +28,14 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "last_opened_file_path": "C:/Users/iNB.BRIANNRT/Desktop/1Folder Projects/1Folder Java/MARINGO SPORTS CLUB C"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/iNB.BRIANNRT/Desktop/1Folder Projects/1Folder Java/MARINGO SPORTS CLUB C&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -68,7 +66,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1700063609659</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="creating first swing class">
++      <created>1700227344929</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1700227344929</updated>
++    </task>
++    <task id="LOCAL-00005" summary="creating first swing class">
++      <created>1700227529920</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1700227529920</updated>
++    </task>
++    <task id="LOCAL-00006" summary="creating first swing class">
++      <created>1700227587504</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1700227587504</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+Index: src/SwingBasics.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class swingBasics {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/SwingBasics.java b/src/SwingBasics.java
+--- a/src/SwingBasics.java	(revision 690b511bd04decdd7ef064783aa613d266b11ade)
++++ b/src/SwingBasics.java	(date 1700227973192)
+@@ -1,2 +1,92 @@
+-public class swingBasics {
++import javax.swing.*;
++import javax.swing.border.MatteBorder;
++import java.awt.*;
++import java.awt.event.FocusEvent;
++import java.awt.event.FocusListener;
++
++public class SwingBasics {
++    JFrame frame = new JFrame();
++    JButton button = new JButton("or Me!");
++    JLabel label = new JLabel("Click me");
++    JTextField jTextField = new JTextField();
++    JTextField textField = new JTextField();
++    //JTextField passwordField = new JTextField();
++    JPasswordField passwordField = new JPasswordField();
++    public SwingBasics(){
++
++        label.setBounds(50,100,75,25);
++        button.setBounds(50,150,75,25);
++
++        textField.setBounds(50,200,100,25);
++        textField.setBorder(new MatteBorder(0,0,1,0, Color.BLACK));
++        textField.setForeground(Color.GRAY);
++        textField.setText("Enter username");
++        textField.addFocusListener(new FocusListener() {
++            @Override
++            public void focusGained(FocusEvent e) {
++                if (textField.getText().equals("Enter username")) {
++                    textField.setText("");
++                    textField.setForeground(Color.BLACK);
++                }
++            }
++
++            @Override
++            public void focusLost(FocusEvent e) {
++                if (textField.getText().isEmpty()) {
++                    textField.setForeground(Color.GRAY);
++                    textField.setText("Enter username");
++                }
++            }
++        });
++
++        passwordField.setBounds(50,250,100,25);
++        passwordField.setBorder(new MatteBorder(0,0,1,0, Color.BLACK));
++        passwordField.setForeground(Color.GRAY);
++        passwordField.setText("Enter password");
++        passwordField.addFocusListener(new FocusListener() {
++            @Override
++            public void focusGained(FocusEvent e) {
++                if (passwordField.getText().equals("Enter password")) {
++                    passwordField.setText("");
++                    passwordField.setForeground(Color.BLACK);
++                }
++            }
++
++            @Override
++            public void focusLost(FocusEvent e) {
++                if (passwordField.getText().isEmpty()) {
++                    passwordField.setForeground(Color.GRAY);
++                    passwordField.setText("Enter password");
++                    if (passwordField.getEchoChar()=='\u2022')
++                        passwordField.setEchoChar((char) 0);
++                }
++            }
++        });
++
++        button.setFocusable(false);
++        frame.setSize(420,420);
++        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
++        frame.setLayout(null);
++        frame.setLocationRelativeTo(null);
++
++        frame.add(label);
++        frame.add(button);
++        frame.add(textField);
++        frame.add(passwordField);
++        frame.setVisible(true);
++
++        setInitialFocus(button);
++    }
++
++    private void setInitialFocus(Component component) {
++        KeyboardFocusManager.getCurrentKeyboardFocusManager().clearFocusOwner();
++        component.requestFocusInWindow();
++    }
++
++    public static void main(String[] args) {
++        SwingBasics swingBasics = new SwingBasics();
++        SwingUtilities.invokeLater(() -> {
++            swingBasics.button.requestFocusInWindow();
++        });
++    }
+ }
