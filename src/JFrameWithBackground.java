@@ -8,16 +8,18 @@ public class JFrameWithBackground extends JFrame {
 
     private JPanel panel;
     private  JPanel backgroundPanel;
-    JLabel mainLabel = new JLabel("Login Form");
+    JLabel mainLabel = new JLabel("LOGIN FORM");
 
     public JFrameWithBackground() {
 
         setTitle("Login Form");
         setSize(800, 600);
 
-        mainLabel.setBounds(300,50,300,50);
-        mainLabel.setFont(new Font(null,Font.BOLD,25));
+        mainLabel.setBounds(260,50,300,50);
+        mainLabel.setFont(new Font(null,Font.BOLD,43));
         mainLabel.setForeground(Color.WHITE);
+        mainLabel.setBorder(new LoginForm.RoundBorder(10));
+        //mainLabel.setHorizontalAlignment(100);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -28,7 +30,7 @@ public class JFrameWithBackground extends JFrame {
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
 
-                Image backgroundImage = new ImageIcon("D:\\Themes Windows\\desktop themes\\31.jpg").getImage();
+                Image backgroundImage = new ImageIcon("src/background.jpg").getImage();
                 g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
             }
         };
@@ -79,8 +81,8 @@ public class JFrameWithBackground extends JFrame {
             }
         });
 
-        panel.setBounds(200,125,400,300);
-        panel.setBackground(new Color(255,255,255,128));
+        panel.setBounds(200,125,400,320);
+        panel.setBackground(new Color(255,255,255,168));
 
         JLabel usernameLabel = new JLabel("Username");
         usernameLabel.setBounds(50,25,100,50);
@@ -96,10 +98,11 @@ public class JFrameWithBackground extends JFrame {
 
         JButton loginButton = new JButton("Login");
         loginButton.setFont(new Font(null,Font.BOLD,18));
-        loginButton.setForeground(Color.WHITE);
-        loginButton.setBackground(new Color(50, 64, 64));
+        //loginButton.setForeground(Color.WHITE);
+        //loginButton.setBackground(new Color(50, 64, 64));
+        //loginButton.setIcon();
         loginButton.setBounds(100,225,200,50);
-        loginButton.setBorder(new LoginForm.RoundBorder(15));
+        //loginButton.setBorder(new LoginForm.RoundBorder(15));
         loginButton.setFocusable(false);
 
         panel.add(usernameLabel);
